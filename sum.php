@@ -1,5 +1,7 @@
 <?php
 
+include 'layout/header.php';
+
 $numbers = [1, 2, 3, 9];
 $i = 0;
 $sum = 0;
@@ -54,3 +56,5 @@ if (isset($_GET['submit-button'], $_GET['numbers']))
     $numbers = $_GET['numbers'];
     echo array_sum($numbers);
 }
+
+include 'layout/footer.php';

@@ -47,4 +47,14 @@ foreach ($numbers as $number)
     </tr>
 </table>
 
+<?php
+function positive($number)
+{
+    return $number > 0;
+}
+
+$positives = count(array_filter($numbers, 'positive'));
+var_dump($positives);
+?>
+
 <?php include 'layout/footer.php'; ?>

@@ -11,4 +11,8 @@
 
 <div class="fixed-position">fixed</div>
 
+<script>
+    console.log('kiírunk vmit');
+</script>
+
 <?php include 'layout/footer.php'; ?>
